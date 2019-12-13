@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { SectionSalesComponent } from './section-sales/section-sales.component';
-import { SectionOrdersComponent } from './section-orders/section-orders.component';
-import { SectionHealthComponent } from './section-health/section-health.component';
+import { SectionSalesComponent } from './sections/section-sales/section-sales.component';
+import { SectionOrdersComponent } from './sections/section-orders/section-orders.component';
+import { SectionHealthComponent } from './sections/section-health/section-health.component';
 
 @NgModule({
   declarations: [
