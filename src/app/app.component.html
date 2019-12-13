@@ -294,7 +294,15 @@
     }
   }
 </style>
-
 <app-navbar></app-navbar>
-<app-sidebar></app-sidebar>
+
+<div class="container-fluid">
+  <div class="row" id=mainContent>
+    <app-sidebar></app-sidebar>
+
+   <div class="col-sm-9" id="dashboard">
+    <p>Content goes here</p>
+   </div>
+  </div>
+</div>
 <router-outlet></router-outlet>
